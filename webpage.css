@@ -1,0 +1,266 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    cursor: pointer;
+                }
+                
+                .logo {
+                    margin-left: 50px;
+                    display: inline-table;
+                }
+                /* .menu {
+                    background-color: black;
+                    position: relative;
+                    display: inline;
+                } */
+                
+                .menu-items {
+                    margin-bottom: 30px;
+                    list-style-type: none;
+                }
+                
+                .menu1 {
+                    font-family: 'Changa', sans-serif;
+                    font-family: 'Cormorant Garamond', serif;
+                    font-family: 'Ysabeau', sans-serif;
+                }
+                
+                a {
+                    color: red;
+                    text-decoration: none;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    padding: 3px;
+                }
+                
+                a:hover {
+                    text-decoration: underline;
+                    color: darkred;
+                }
+                
+                li {
+                    list-style-type: none;
+                    display: inline-table;
+                    padding-left: 20px;
+                    float: right;
+                    font-weight: 0;
+                    font-family: sans-serif;
+                    font-size: small;
+                }
+                
+                .main_img {
+                    position: relative;
+                }
+                
+                .head1 {
+                    position: absolute;
+                    color: white;
+                    font-size: 25px;
+                    top: 30%;
+                    left: 10%;
+                    font-family: arial;
+                    font-weight: 5px;
+                    animation-duration: 3s;
+                    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+                    animation-iteration-count: infinite;
+                    font-family: sans-serif;
+                    text-align: center;
+                    opacity: 0.5;
+                }
+                
+                .head2 {
+                    position: absolute;
+                    color: white;
+                    font-size: 20px;
+                    top: 50%;
+                    left: 30%;
+                    font-family: 'Open sans', sans-serif;
+                }
+                
+                .butt {
+                    position: absolute;
+                    top: 70%;
+                    left: 40%;
+                    background-color: rgba(255, 255, 255, 0.3);
+                    border: none;
+                    color: white;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    border: none;
+                }
+                
+                .butt:hover {
+                    background-color: white;
+                    color: black;
+                }
+                
+                .head3 {
+                    padding: 30px;
+                    text-align: center;
+                }
+                
+                .para1 {
+                    margin-left: 200px;
+                    width: 30%;
+                    position: absolute;
+                }
+                
+                .about_img {
+                    float: right;
+                    position: relative;
+                    margin-right: 150px;
+                }
+                
+                .special {
+                    /* position: absolute; */
+                    margin-top: 400px;
+                    text-align: center;
+                }
+                
+                .Traditional {
+                    margin-top: 50px;
+                    margin-left: 50px;
+                    font-size: large;
+                }
+                
+                .Classic {
+                    margin-top: 20px;
+                    margin-left: 50px;
+                }
+                
+                .img1 {
+                    margin-left: 70px;
+                    display: inline-block;
+                    padding-left: 40px;
+                    margin-top: 50px;
+                    border-color: white;
+                    border-style: none;
+                    background: rgba(169, 128, 94, 0.527);
+                }
+                
+                .text1 {
+                    align-items: center;
+                    text-align: center;
+                    font-style: italic;
+                }
+                
+                .image-gallery {
+                    justify-content: space-between;
+                    margin-left: 1300px;
+                    margin-right: 100px;
+                    /* margin-top: 500px; */
+                    background-color: rgba(241, 235, 235, 0.766);
+                }
+                
+                .services {
+                    width: 100%;
+                    float: left;
+                    background-image: url(https://www.forbesindia.com/media/images/2022/Mar/img_180317_coffee_tea_sm.jpg);
+                    height: auto;
+                    padding-bottom: 150px;
+                    background-attachment: fixed;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    padding-left: 100px;
+                    opacity: 0.7;
+                    /* overflow: hidden; */
+                    /* position: absolute; */
+                }
+                
+                .box {
+                    margin: 200px 50px 50px 30px;
+                    display: inline-block;
+                    padding: 60px;
+                    background-color: wheat;
+                    /* opacity: 0.7; */
+                    width: 20%;
+                }
+                
+                .box:hover {
+                    background: rgba(209, 165, 134, 0.727);
+                    transition: ease-out 0.5s;
+                    -webkit-transition: ease-out 0.5s;
+                    -moz-transition: ease-out 0.5s;
+                    -ms-transition: ease-out 0.5s;
+                    -o-transition: ease-out 0.5s;
+                    transform: scale(1.5);
+                    -webkit-transform: scale(1.2);
+                    -moz-transform: scale(1.5);
+                    -ms-transform: scale(1.5);
+                    -o-transform: scale(1.5);
+                }
+                
+                .serv-text {
+                    text-align: center;
+                    margin-top: 70px;
+                }
+                
+                .contact {
+                    position: relative;
+                    margin-top: 120px;
+                    text-align: center;
+                }
+                
+                .p1 {
+                    margin: 50px;
+                    width: 80%;
+                    padding: 30px;
+                    border: 1px solid brown;
+                }
+                
+                .person {
+                    padding-top: 70px;
+                    text-align: center;
+                }
+                
+                footer {
+                    font-size: 30px;
+                    background-color: rgba(0, 0, 0, 0.794);
+                    /* padding-bottom: 10px; */
+                    padding-left: 150px;
+                }
+                
+                td {
+                    margin: 100px 100px;
+                    color: #fff;
+                    padding-left: 100px;
+                    font-size: medium;
+                    line-height: 1.5;
+                }
+                
+                th {
+                    color: #fff;
+                    padding-left: 100px;
+                    padding-bottom: 20px;
+                }
+                
+                .line {
+                    color: #fff;
+                    font-size: x-small;
+                    padding: 30px 0px;
+                    text-align: center;
+                    word-spacing: 1.5;
+                }
+                
+                .box1 {
+                    background-color: rgba(238, 235, 235, 0.881);
+                    display: inline-block;
+                    padding: 30px;
+                    margin-left: 200px;
+                }
+                
+                .test {
+                    border-radius: 50px;
+                    -webkit-border-radius: 50px;
+                    -moz-border-radius: 50px;
+                    -ms-border-radius: 50px;
+                    -o-border-radius: 50px;
+                }
+                
+                .menu-items::after {
+                    menu-items: "\a";
+                    white-space: pre;
+                }
